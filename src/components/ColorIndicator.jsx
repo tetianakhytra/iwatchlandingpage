@@ -14,7 +14,7 @@ export default function ColorIndicator({ currentWatch, setCurrentWatch }) {
         <div key={i} className="tiny_dot" />
       ))}
 
- 
+
       <div
         className={`dot dot_mint ${currentWatch === "/mint.png" ? "active" : ""}`}
         onClick={() => setCurrentWatch("/mint.png")}
