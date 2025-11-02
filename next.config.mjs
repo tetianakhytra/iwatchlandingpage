@@ -5,10 +5,3 @@ const nextConfig = {
 
 export default nextConfig;
 
-const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
-}
-
-module.exports = nextConfig
