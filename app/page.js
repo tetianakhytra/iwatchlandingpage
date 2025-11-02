@@ -1,10 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import ButtonCat from "../components/ButtonCat";
-import ColorIndicator from "../components/ColorIndicator";
-import PageIndicator from "../components/PageIndicator";
-import WatchCards from "../components/WatchCards";
+import ButtonCat from "@/components/ButtonCat";
+import ColorIndicator from "@/components/ColorIndicator";
+import PageIndicator from "@/components/PageIndicator";
+import WatchCards from "@/components/WatchCards";
 import { useState } from "react";
 
 export default function Page() {
