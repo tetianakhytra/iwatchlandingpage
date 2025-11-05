@@ -2,7 +2,7 @@
 
 export default function Nav() {
   return (
-    <nav className="nav menu">
+    <nav className="flex justify-between items-center px-6 py-3 text-white text-lg w-[99%] col-start-1 col-end-13 row-start-1">
       {/* Logo */}
       <div className="logo">
         <svg xmlns="http://www.w3.org/2000/svg" width="41" height="50" viewBox="0 0 41 50" fill="none">
@@ -11,27 +11,38 @@ export default function Nav() {
       </div>
 
       {/* Links */}
-      <ul>
-        <li>Mac</li>
-        <li>iPhone</li>
-        <li>iPad</li>
-        <li>iWatch</li>
-        <li>Support</li>
-      </ul>
+   <ul className="flex gap-10 list-none h-10">
+  <li className="px-5 py-1 rounded-full box-border transition hover:bg-white hover:text-[#B6CCDA] hover:border-2 hover:border-white">
+    Mac
+  </li>
+  <li className="px-5 py-1 rounded-full box-border transition hover:bg-white hover:text-[#B6CCDA] hover:border-2 hover:border-white">
+    iPhone
+  </li>
+  <li className="px-5 py-1 rounded-full box-border transition hover:bg-white hover:text-[#B6CCDA] hover:border-2 hover:border-white">
+    iPad
+  </li>
+  <li className="px-5 py-1 rounded-full box-border transition hover:bg-white hover:text-[#B6CCDA] hover:border-2 hover:border-white">
+    iWatch
+  </li>
+  <li className="px-5 py-1 rounded-full box-border transition hover:bg-white hover:text-[#B6CCDA] hover:border-2 hover:border-white">
+    Support
+  </li>
+</ul>
+
 
       {/* Icons */}
-      <div className="icons">
-        <span>
+      <div className="flex gap-5 cursor-pointer">
+        <span className="text-xl">
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
   <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
   <path d="M21 21L16.65 16.65" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
 
         </span>
-        <span><svg xmlns="http://www.w3.org/2000/svg" width="1" height="23" viewBox="0 0 1 23" fill="none">
+        <span className="text-xl"><svg xmlns="http://www.w3.org/2000/svg" width="1" height="23" viewBox="0 0 1 23" fill="none">
   <path d="M0.5 0.5V22.5" stroke="white" strokeLinecap="round"/>
 </svg></span>
-        <span>
+    <span className="text-xl">
 
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
   <path d="M6 2L3 6V20C3 20.5304 3.21071 21.0391 3.58579 21.4142C3.96086 21.7893 4.46957 22 5 22H19C19.5304 22 20.0391 21.7893 20.4142 21.4142C20.7893 21.0391 21 20.5304 21 20V6L18 2H6Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
